@@ -25,7 +25,7 @@ const prefix = "#";
 const VIP = ["563646438408716298", ""];
 
 client.on('ready',async () => {
-  client.channels.find(ch => ch.id === "642161821297410059" && ch.type === 'voice').join();
+  client.channels.find(ch => ch.id === "Id room" && ch.type === 'voice').join();
 })
 
                        
@@ -390,4 +390,4 @@ client.on("message", message => {
   }
 });
 
-client.login("NjQzNTg5MDYyNTIyODMwODY1.Xcskdg.6whYMtMM1LnT8ihl9dci1XsTNsk");
+client.login("");
